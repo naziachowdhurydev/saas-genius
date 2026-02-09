@@ -1,5 +1,11 @@
+import { Banner } from "./banner.component";
+
 export const HomePage = () => {
-  return <div></div>;
+  return (
+    <div>
+      <Banner />
+    </div>
+  );
 };
 
 HomePage.displayName = "HomePage";

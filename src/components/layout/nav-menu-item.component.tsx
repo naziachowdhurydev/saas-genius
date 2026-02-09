@@ -30,7 +30,10 @@ export const NavMenuItem: FC<NavMenuItemProps> = ({
 
   if (isItemEmpty) {
     return (
-      <Link href={url} className="cursor-pointer">
+      <Link
+        href={url}
+        className="cursor-pointer hover:underline underline-offset-4"
+      >
         {title}
       </Link>
     );
@@ -40,19 +43,19 @@ export const NavMenuItem: FC<NavMenuItemProps> = ({
     <HoverCard openDelay={150} closeDelay={150}>
       <HoverCardTrigger asChild>
         <Link href={url} className={className}>
-          <Button variant="link" className="hover:no-underline">
+          <Button variant="link" className="hover:underline">
             <span>{title}</span>
-            <ChevronDown className="w-3.5 h-3.5 text-gray-400 group-hover:text-[#00aaff] transition-colors" />
+            <ChevronDown className="w-3.5 h-3.5 text-gray-400 group-hover:text-[#00aaff] transition-colors hover:underline" />
           </Button>
         </Link>
       </HoverCardTrigger>
       <HoverCardContent className="w-fit">
         <div className="">
-          <ul className="font-bold text-sm list-none flex flex-col gap-4">
+          <ul className="font-bold text-sm list-none flex flex-col gap-4 hover:underline">
             {items.map((item) => {
               return (
                 <li
-                  className="pb-2 hover:text-[#00aaff] transition-colors"
+                  className="pb-2 hover:text-[#00aaff] transition-colors hover:underline"
                   key={item.title}
                 >
                   <Link href={item.url}>{item.title}</Link>
