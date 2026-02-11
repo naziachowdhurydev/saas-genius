@@ -4,7 +4,7 @@ export const HomeCard = () => {
   return (
     <section className="bg-[#191E24] py-20">
       <Container>
-        <div className="grid grid-cols-4 gap-7">
+        <div className="grid lg:grid-cols-4 md:grid-cols-2 grid-cols-1 gap-7 px-5 lg:px-0">
           <div className="hover:scale-[1.05] transition-all duration-300 cursor-pointer ">
             <div className="w-full h-[150px] bg-white ">
               <img
@@ -42,15 +42,15 @@ export const HomeCard = () => {
             </h4>
           </div>
           <div className="hover:scale-[1.05] transition-all duration-300 cursor-pointer ">
-            <div className="w-full h-[150px] bg-white ">
+            <div className="w-full h-[150px] bg-white">
               <img
                 className="overflow-hidden w-full h-full"
                 src="https://www.saasgenius.com/wp-content/uploads/2025/03/Best-Email-Marketing-Software.svg"
                 alt=""
               />
             </div>
-            <h4 className="bg-[#22272E] w-full text-2xl font-bold text-white text-center py-7 px-1">
-              Best Email Marketing Software
+            <h4 className="bg-[#22272E] w-full text-2xl font-bold text-white text-center py-3">
+              Best Email Marketing <br /> Software
             </h4>
           </div>
           <div className="hover:scale-[1.05] transition-all duration-300 cursor-pointer ">
