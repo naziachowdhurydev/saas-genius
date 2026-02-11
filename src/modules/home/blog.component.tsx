@@ -5,8 +5,10 @@ export const Blog = () => {
     <section className="my-14">
       <Container>
         <div>
-          <h4 className="text-3xl font-bold pb-5">Blog</h4>
-          <div className="flex justify-between gap-5">
+          <h4 className="text-3xl font-bold pb-5 text-center lg:text-start">
+            Blog
+          </h4>
+          <div className="flex flex-col md:flex-row items-center justify-between gap-5">
             <div className="max-w-[350px] bg-[#F5F5F5] rounded-2xl space-y-5 hover:shadow-2xl cursor-pointer">
               <div className="w-full h-[250px] rounded-t-2xl">
                 <img
@@ -61,14 +63,12 @@ export const Blog = () => {
               </div>
               <div className="px-4 pb-5">
                 <h5 className="text-lg font-bold">
-                  The Best Rocket.Chat Alternatives & Competitors for Team
-                  Communication in 2025
+                  8 Top Torii Alternatives for IT Managers in 2025
                 </h5>
                 <span className="text-sm text-gray-500"> October 16, 2025</span>
                 <p className="text-sm text-gray-700">
-                  Effective team communication software drives organizational
-                  success, yet many businesses find Rocket.Chat doesn’t fully
-                  meet…
+                  Efficient SaaS management is a growing concern amongst
+                  businesses that are heavily dependent upon SaaS…{" "}
                   <span className=" border-b border-dashed hover:underline-offset-2 hover:underline cursor-pointer">
                     Read More
                   </span>

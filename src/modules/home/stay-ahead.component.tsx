@@ -5,7 +5,7 @@ export const StayAhead = () => {
     <section className="bg-[#be2edd]">
       <Container>
         <div className="py-16 px-10">
-          <div className="flex items-center justify-between gap-20">
+          <div className="flex items-center flex-col md:flex-row justify-between gap-20">
             <img
               className="w-[300px]"
               src="https://www.saasgenius.com/wp-content/uploads/2024/12/Community-1.png"
