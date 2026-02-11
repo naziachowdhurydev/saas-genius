@@ -20,7 +20,7 @@ export const SoftwareBusiness = () => {
               <img src="/home/software-1.png" alt="" />
             </div>
             <div className="max-w-[350px] space-y-2">
-              <p className="text-[16px]">
+              <p className="text-[16px] pr-3 md:pr-0">
                 <span className="font-bold">1. Cloudways</span> — Cloudways is
                 simple to use and provides flexible plans. It's one of the best
                 hosting platforms for…{" "}
@@ -73,7 +73,7 @@ export const SoftwareBusiness = () => {
               <img src="/home/software-1.png" alt="" />
             </div>
             <div className="max-w-[350px] space-y-2">
-              <p className="text-[16px]">
+              <p className="text-[16px] pr-3 md:pr-0 ">
                 <span className="font-bold">1. Cloudways</span> — Cloudways is
                 simple to use and provides flexible plans. It's one of the best
                 hosting platforms for…{" "}
@@ -126,7 +126,7 @@ export const SoftwareBusiness = () => {
               <img src="/home/software-1.png" alt="" />
             </div>
             <div className="max-w-[350px] space-y-2">
-              <p className="text-[16px]">
+              <p className="text-[16px] pr-3 md:pr-0">
                 <span className="font-bold">1. Cloudways</span> — Cloudways is
                 simple to use and provides flexible plans. It's one of the best
                 hosting platforms for…{" "}
@@ -179,7 +179,7 @@ export const SoftwareBusiness = () => {
               <img src="/home/software-1.png" alt="" />
             </div>
             <div className="max-w-[350px] space-y-2">
-              <p className="text-[16px]">
+              <p className="text-[16px] pr-3 md:pr-0">
                 <span className="font-bold">1. Cloudways</span> — Cloudways is
                 simple to use and provides flexible plans. It's one of the best
                 hosting platforms for…{" "}
@@ -232,7 +232,7 @@ export const SoftwareBusiness = () => {
               <img src="/home/software-1.png" alt="" />
             </div>
             <div className="max-w-[350px] space-y-2">
-              <p className="text-[16px]">
+              <p className="text-[16px] pr-3 md:pr-0">
                 <span className="font-bold">1. Cloudways</span> — Cloudways is
                 simple to use and provides flexible plans. It's one of the best
                 hosting platforms for…{" "}
@@ -285,7 +285,7 @@ export const SoftwareBusiness = () => {
               <img src="/home/software-1.png" alt="" />
             </div>
             <div className="max-w-[350px] space-y-2">
-              <p className="text-[16px]">
+              <p className="text-[16px] pr-3 md:pr-0">
                 <span className="font-bold">1. Cloudways</span> — Cloudways is
                 simple to use and provides flexible plans. It's one of the best
                 hosting platforms for…{" "}
