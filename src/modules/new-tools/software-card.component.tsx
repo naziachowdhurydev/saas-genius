@@ -3,7 +3,7 @@ import { SquareArrowOutUpRight, Star } from "lucide-react";
 
 export const SoftwareCard = () => {
   return (
-    <section>
+    <section className="my-8">
       <Container>
         <div className="px-8 lg:px-0 space-y-3">
           <h3 className="text-[40px] font-bold">Featured Software</h3>

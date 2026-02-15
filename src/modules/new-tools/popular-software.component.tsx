@@ -3,7 +3,7 @@ import { SquareArrowOutUpRight, Star } from "lucide-react";
 
 export const PopularSoftware = () => {
   return (
-    <section>
+    <section className="my-8">
       <Container>
         <div className="space-y-2 px-10 lg:px-0">
           <h2 className="text-2xl md:text-3xl font-bold">Popular Software</h2>
