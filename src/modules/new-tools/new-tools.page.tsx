@@ -1,5 +1,12 @@
+import { ToolBanner } from "./tool-banner.component";
+import { SoftwareCard } from "./software-card.component";
 export const NewToolsPage = () => {
-  return <div>new tools</div>;
+  return (
+    <div>
+      <ToolBanner />
+      <SoftwareCard />
+    </div>
+  );
 };
 
 NewToolsPage.displayName = "NewToolsPage";
