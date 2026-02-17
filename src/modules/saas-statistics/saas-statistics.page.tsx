@@ -1,5 +1,13 @@
+import { SaaSBanner } from "./saas-banner.component";
+import { SaaSPricingCard } from "./saas-pricing-card.component";
+
 export const SaasStatisticsPage = () => {
-  return <div>saas statistics</div>;
+  return (
+    <div>
+      <SaaSBanner />
+      <SaaSPricingCard />
+    </div>
+  );
 };
 
 SaasStatisticsPage.displayName = "SaasStatisticsPage";
