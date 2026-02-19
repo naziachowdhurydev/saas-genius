@@ -50,13 +50,13 @@ export const SaaSPage = () => {
           </p>
 
           <h3 className="text-4xl font-bold">Explore SaasGenius</h3>
-          <p className="my-3 text-xl text-gray-600 leading-relaxed border-b border-dashed w-[190px] hover:underline underline-offset-9 cursor-pointer">
+          <p className="my-3 text-xl text-gray-600 leading-relaxed border-b border-dashed hover:border-none w-[190px] hover:underline underline-offset-9 cursor-pointer">
             SaaS Pricing Glossary
           </p>
-          <p className="my-3 text-xl text-gray-600 leading-relaxed border-b border-dashed w-[90px] hover:underline underline-offset-9 cursor-pointer">
+          <p className="my-3 text-xl text-gray-600 leading-relaxed border-b border-dashed hover:border-none w-[90px] hover:underline underline-offset-9 cursor-pointer">
             SaaS Blog
           </p>
-          <p className="my-3 text-xl text-gray-600 leading-relaxed border-b border-dashed w-[150px] hover:underline underline-offset-9 cursor-pointer">
+          <p className="my-3 text-xl text-gray-600 leading-relaxed border-b border-dashed hover:border-none w-[150px] hover:underline underline-offset-9 cursor-pointer">
             New SaaS Tools
           </p>
         </div>

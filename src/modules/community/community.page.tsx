@@ -1,5 +1,11 @@
+import { CommunityBanner } from "./comunity-banner.componet";
+
 export const CommunityPage = () => {
-  return <div>community</div>;
+  return (
+    <>
+      <CommunityBanner />
+    </>
+  );
 };
 
 CommunityPage.displayName = "CommunityPage";
