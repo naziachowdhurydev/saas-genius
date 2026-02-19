@@ -1,5 +1,4 @@
 import { Container } from "@/components/shared/container.component";
-import { AuthorCard } from "../saas-statistics/author-card.component";
 
 export const CommunityBanner = () => {
   return (
